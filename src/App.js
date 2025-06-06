@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import Accordian from "./components/accordian";
 import Random from "./components/random-color";
-
+import StarRating from "./components/starRating";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -74,7 +74,7 @@ function App() {
        <Random/>
      
      {/* star rating component */}
-     
+     <StarRating noOfStars = {10}/>
    </div>
   );
 }
