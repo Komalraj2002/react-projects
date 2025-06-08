@@ -1,12 +1,13 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Accordian from "./components/accordian";
 import Random from "./components/random-color";
 import StarRating from "./components/starRating";
+import ImageSlider from "./components/image-slider";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [total, setTotal] = useState(1);
+  // const [count, setCount] = useState(0);
+  // const [total, setTotal] = useState(1);
 
   //use Effect
   // first =side effect
@@ -75,6 +76,10 @@ function App() {
      
      {/* star rating component */}
      <StarRating noOfStars = {10}/>
+
+     {/* image slider component  */}
+     <ImageSlider url={'https://picsum.photos/v2/list'} page = {'1'} limit = {"4"}/>
+
    </div>
   );
 }
