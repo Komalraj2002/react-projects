@@ -13,6 +13,13 @@ Welcome to a curated collection of fun and functional **React.js projects**—pe
 3. ⭐ Star Rating UI
    A clean, intuitive star rating component. Fully interactive and ideal for reviews or feedback features.
 
+4. Image Slider
+   A responsive image slider that fetches high-quality images from the Picsum API and displays them with smooth transitions and navigation controls.
+
+5. Load More Products
+ A dynamic react component that fetches the first 20 products from the DummyJSON API and loads 20 more with each click, seamlessly continuing until 100 products are displayed.
+
+   
 and many more to come
 
 
