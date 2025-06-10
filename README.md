@@ -19,6 +19,8 @@ Welcome to a curated collection of fun and functional **React.js projects**—pe
 5. Load More Products
  A dynamic react component that fetches the first 20 products from the DummyJSON API and loads 20 more with each click, seamlessly continuing until 100 products are displayed.
 
+6. Tic Tac Toe
+   Built a responsive Tic Tac Toe game using ReactJS with functional components and Hooks. Implemented game logic for player turns, win/draw detection, and reset functionality.Ensured       smooth user interaction through dynamic UI updates.
    
 and many more to come
 
