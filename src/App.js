@@ -5,7 +5,8 @@ import Random from "./components/random-color";
 import StarRating from "./components/starRating";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
-import TicTacToe from "./components/tic tact toe";
+import TicTacToe from "./components/tic-tac-toe";
+
 
 function App() {
 
@@ -34,6 +35,8 @@ function App() {
 
      {/*tic tac toe */}
      <TicTacToe/>
+      
+
     </div>
   );
 }
